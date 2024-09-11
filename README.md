@@ -1,2 +1,2 @@
 # password_builder-py
-program taht build passwords in python 
+program that build passwords in python 
