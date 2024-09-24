@@ -26,23 +26,16 @@ def password():
     print('Your new password: '+f"{RED}" +finalPassword + "" )
 
 
-def check():
-    print('lets check this password')
- 
 
 def menu():
     print('Password generator \n')
-    #print('Choose what do you want to do: ')
         
     try:   
         choice = int(input("To generate new password choose 1: "))
 
         if choice == 1:
             password()
-
-        elif choice == 2:
-            check()
-
+          
         else:
             print('\nWrong data typed in, try again. \n')
             menu()
